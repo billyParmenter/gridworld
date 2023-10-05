@@ -5,7 +5,7 @@ class GridWorld():
     def __init__(self, env_size):
         self.env_size = env_size
         self.terminal_state = (4, 4)
-        self.grey_states = [(2,2),(3,0),(4,0)]
+        self.grey_states = [(2,2),(3,0),(0,4)]
 
         # Define the transition probabilities and rewards
         self.actions = [(0, 1), (1, 0), (1, 0), (-1, 0)]  # Right, Left, Down, Up
